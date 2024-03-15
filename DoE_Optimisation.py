@@ -322,7 +322,7 @@ if __name__ == "__main__":
     #Import the kinetic paramter values and associated label from .csv file
     '''NOTE. Set the right path for the file with model parameters'''
     
-    parameters_df = pd.read_csv('C:/Users/enry_/OneDrive/UNI/Python/Data/ModelParameters.csv')
+    parameters_df = pd.read_csv('C:/Users/.../Data/ModelParameters.csv')
     
     parameters_df.label = parameters_df.label.astype(int)
     labels_set = parameters_df['label'].values

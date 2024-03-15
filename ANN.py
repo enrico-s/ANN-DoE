@@ -79,7 +79,7 @@ models = [compile(model, "<string>", "eval") for model in equation_codes]
                                     
 
 '''SET the right path for the file with model parameters'''
-parameters_df = pd.read_csv('C:/Users/enry_/OneDrive/UNI/Python/Data/ModelParameters.csv')
+parameters_df = pd.read_csv('C:/Users/.../Data/ModelParameters.csv')
 
 parameters_df.label = parameters_df.label.astype(int)
 labels_set = parameters_df['label'].values
@@ -257,7 +257,7 @@ plt.show()
 # 7.1) The directory to save the Excel file;
 
 '''CHANGE File directory HERE to SAVE the output files'''
-os.chdir('C:/Users/enry_/OneDrive/UNI/Python/Results')        
+os.chdir('C:/Users/.../Results')        
 
 # 7.2) A function to import the data;
 def excelsave(array,filename): 
